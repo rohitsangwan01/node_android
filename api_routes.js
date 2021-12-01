@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
 })
 
 //MongoController Requests
-var MongoController = require('./Controller/MongoController');
+var MongoController = require('./MongoController');
 router.route('/get').get(MongoController.get);
 router.route('/get_all').post(MongoController.getAll);
 router.route('/get_one').post(MongoController.getOne);

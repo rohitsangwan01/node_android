@@ -1,5 +1,5 @@
-const db = require('../db.js').getDb()
-var helper = require('../helper/helper')
+const db = require('./db.js').getDb()
+var helper = require('./helper/helper')
 var ObjectId = require('mongodb').ObjectID;
 
 //to Get All Data From MongoDb
